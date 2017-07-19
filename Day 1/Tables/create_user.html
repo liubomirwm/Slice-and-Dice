@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Create user</title>
+</head>
+<body>
+	<form action="#" method="post">
+		<h1>Create new user</h1>
+		<input type="hidden" name="creatorId" value="4">
+		<input type="hidden" name="creatorRole" value="Admin">
+
+		<label for="username">Username: </label>
+		<input type="text" name="username" id="username" required="required" /><br />
+		<label for="email">Email: </label>
+		<input type="email" name="email" id="email" required="required" />
+		<h2>Upload photo</h2>
+		<input type="file" name="photo" /><br />
+		<h2>Teams</h2>
+		<label for="team_1">Team1 </label>
+		<input type="checkbox" name="teams" value="team_1" id="team_1" /><br />
+		<label for="team_2">Team2 </label>
+		<input type="checkbox" name="teams" value="team_2" id="team_2" /><br />
+		<label for="team_3">Team3 </label>
+		<input type="checkbox" name="teams" value="team_3" id="team_3" />
+		<h2>Position</h2>
+		<label for="position_1">Position1 </label>
+		<input type="radio" name="position" value="position_1" id="position_1" /><br />
+		<label for="position_2">Position2 </label>
+		<input type="radio" name="position" value="position_2" id="position_2" /><br />
+		<label for="position_1">Position3 </label>
+		<input type="radio" name="position" value="position_3" id="position_3" /><br />
+		<h2>Role</h2>
+		<select name="role" multiple="multiple">
+			<option value="admin">Admin</option>
+			<option value="moderator">Moderator</option>
+			<option value="user">User</option>
+		</select><br />
+		<input type="submit" name="submit" value="Create!" />
+	</form>
+</body>
+</html>

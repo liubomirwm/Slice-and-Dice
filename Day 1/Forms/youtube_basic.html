@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bg-BG">
+<head>
+	<meta charset="utf-8" />
+	<title>Youtube Basic Info</title>
+	<style type="text/css">
+		.float-left {float: left;}
+		.clearfix {
+			content: "";
+  		display: table;
+  		clear: both;
+		}
+		.clear {clear: both;}
+	</style>
+</head>
+<body>
+	<form>
+		<h1>Основна информация</h1>
+		<hr />
+		<input type="text" name="song-title" value="Създаване на форми"><br />
+		<textarea rows="12">Описание</textarea><br />
+		<input type="text" name="tags" placeholder="Въведете маркери"><br />
+		<select name="visibility">
+			<option value="public">Обществен</option>
+			<option value="hidden">Скрит</option>
+			<option value="private">Частен</option>
+		</select><br /><br />
+		<img src="images/671485_man_512x512.png" width="80" height="80" alt="person with guitar" class="float-left" />
+		<textarea rows="8" class="float-left">Коментар</textarea>
+		<p class="clear"><br /><br />Share in:</p><br />
+		<input type="checkbox" name="share" value="facebook" />
+		<img src="images/icons8-Facebook.png"><br />
+		<input type="checkbox" name="share" value="twitter" />
+		<img src="images/icons8-Twitter.png"><br />
+		<input type="checkbox" name="share" value="twitter" />
+		<img src="images/icons8-LinkedIn.png"><br />
+		<input type="submit" name="submit" value="Запазване на промените" />
+	</form>
+</body>
+</html>

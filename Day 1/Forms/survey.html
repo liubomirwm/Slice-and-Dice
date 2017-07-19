@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Survey</title>
+	<style type="text/css">
+		table, th, td {border: 1px solid black;}
+		th, td {padding: 5px;}
+	</style>
+</head>
+<body>
+	<h1>Please, fill the form</h1>
+	<form action="#" method="post">
+	<table>
+		<thead>
+			<tr>
+				<th>Label</th>
+				<th>Choices</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="submit" value="Send!" /></td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td><label for="email">Email</label></td>
+				<td><input type="email" name="email" id="email" placeholder="Enter your email address" required="required" /></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender" id="gender-male" value="male" required="required" /> <label for="gender-male">Male</label><br />
+					<input type="radio" name="gender" value="female" id="gender-female" /> <label for="gender-female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Favorite fruits</td>
+				<td>
+					<label for="fruits-oranges">Oranges</label> <input type="checkbox" name="fav-fruits" id="fruits-oranges" value="oranges" /><br />
+					<label for="fruits-apples">Apples</label> <input type="checkbox" name="fav-fruits" id="fruits-apples" value="apples" /><br />
+					<label for="fruits-pears">Pears</label> <input type="checkbox" name="fav-fruits" id="fruits-pears" value="pears" /><br />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</form>
+</body>
+</html>

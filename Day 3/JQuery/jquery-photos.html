@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>JQuery</title>
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+<body>
+<div id="main-content">
+	<img src="images/1.jpg" width="800" height="500" alt="image">
+	<div class="button-container">
+		<button onclick="makeChange('hide')">Hide</button>
+		<button onclick="makeChange('show')">Show</button>
+		<button onclick="makeChange('roundCorners')">Round corners</button>
+		<button onclick="makeChange('straightCorners')">Straight corners</button>
+		<button onclick="makeChange('addBorder')">Add red border</button>
+		<button onclick="makeChange('removeBorder')">Remove red border</button>
+		<button onclick="makeChange('moveUp')">Move up</button>
+		<button onclick="makeChange('moveDown')">Move down</button>
+	</div>
+	<div class="button-container">
+		<button onclick="makeChange('previousImage')">Previous image</button>
+		<button onclick="makeChange('nextImage')">Next image</button>
+	</div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="scripts/site.js"></script>
+</body>
+</html>

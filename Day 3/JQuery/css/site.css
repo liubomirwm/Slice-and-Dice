@@ -1,0 +1,4 @@
+body {background-image: url(../images/background.jpg)}
+img {display: none; margin: auto;}
+.button-container {width: 60%; margin: auto; text-align: center;}
+#main-content img {margin-top: 50px;}

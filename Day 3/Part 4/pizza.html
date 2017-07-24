@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script type="text/javascript" src="pizza.js"></script>
+</head>
+<body>
+	<p>check the console ;)</p>
+<script type="text/javascript">
+	var orderCount = 0;
+	takeOrder("Mustard", "thin");
+	takeOrder("chilli", "medium");
+	takeOrder("ketchup", "thick");
+	var subtotal = getSubTotal(orderCount);
+	console.log(subtotal);
+	var tax = getTax();
+	console.log(getTotal());
+</script>
+</body>
+</html>

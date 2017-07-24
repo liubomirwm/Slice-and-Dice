@@ -1,0 +1,8 @@
+body {font-family: Oswald, serif;}
+table, th, td {border: 1px solid black;}
+table {border-collapse: collapse; overflow: auto;}
+th, td {padding: 5px;}
+#weather-widget {display: none;}
+#weather-temperature {font-size: 35px; line-height: 0.5;}
+#weather-temperature img {float: left;}
+#weather-main {margin-left: 20px; font-size: 30px; line-height: 0.5;}

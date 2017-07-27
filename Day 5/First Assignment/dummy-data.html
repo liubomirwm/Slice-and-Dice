@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dummy Data</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		th,td {
+			border:1px solid black;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="DataTables-1.10.15/media/css/jquery.dataTables.min.css">
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script type="text/javascript" src="jquery-validation-1.16.0/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="jquery-validation-1.16.0/dist/additional-methods.min.js"></script>
+	<script type="text/javascript" src="jquery-validation-1.16.0/lib/jquery.form.js"></script>
+	<script type="text/javascript" src="pnotify.custom.min.js"></script>
+	<link href="pnotify.custom.min.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<table id="myTable">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Username</th>
+				<th>Email</th>
+				<th>Street</th>
+				<th>Suite</th>
+				<th>City</th>
+				<th>Zipcode</th>
+				<th>Geo:Lat</th>
+				<th>Geo:Lng</th>
+				<th>Phone</th>
+				<th>Website</th>
+				<th>Company Name</th>
+				<th>Company catch phrase</th>
+				<th>Company bs</th>
+			</tr>
+		</thead>
+	</table>
+	<button id="fetch">Fetch Data</button>
+	
+	<form action="#" method="post" id="myForm">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name"><br>
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username"><br>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email"><br>
+		<label for="street">Street</label>
+		<input type="text" name="street" id="street"><br>
+		<label for="suite">Suite</label>
+		<input type="text" name="suite" id="suite"><br>
+		<label for="city">City</label>
+		<input type="text" name="city" id="city"><br>
+		<label for="zipcode">Zipcode</label>
+		<input type="text" name="zipcode" id="zipcode"><br>
+		<label for="geo-latitude">Geo Latitude</label>
+		<input type="number" name="geo-latitude" id="geo-latitude"><br>
+		<label for="geo-longitude">Geo Longitude</label>
+		<input type="number" name="geo-longitude" id="geo-longitude"><br>
+		<label for="phone">Phone</label>
+		<input type="tel" name="phone" id="phone"><br>
+		<label for="website">Website</label>
+		<input type="url" name="website" id="website"><br>
+		<label for="company-name">Comapany Name</label>
+		<input type="text" name="company-name" id="company-name"><br>
+		<label for="company-catch-phrase">Company catch phrase</label>
+		<input type="text" name="company-catch-phrase" id="company-catch-phrase"><br>
+		<label for="company-business">Company business</label>
+		<input type="text" name="company-business" id="company-business"><br>
+		<input type="submit" id="submit">
+	</form>
+
+
+	<script type="text/javascript" src="DataTables-1.10.15/media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="dummy-data.js"></script>
+	<script type="text/javascript" src="javascript-custom-validation.js"></script>
+</body>
+</html>
